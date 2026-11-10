@@ -1,4 +1,4 @@
-# INEM Convive · Candidata pública 0.2.2
+# INEM Convive · Piloto educativo finalizado v0.2.2
 
 Aplicación educativa estática para explorar el Manual de Convivencia de la IEDT INEM Simón Bolívar mediante **30 situaciones ficticias**, 10 para estudiantes, 10 para familias y 10 para docentes. Desarrollo educativo de **Arias Data Lab (ADL) · 2026**.
 
@@ -15,15 +15,13 @@ Abre `index.html` en un navegador moderno o sirve esta carpeta como sitio estát
 
 Para abrir las páginas citadas, selecciona en la página una copia local del Manual de Convivencia en PDF. El PDF permanece en el dispositivo y se usa durante la sesión, sin subirlo a ningún servidor.
 
-## Preparación para GitHub Pages
+## Publicación en GitHub Pages
 
-1. Revisar con el INEM la autorización de uso público de su escudo y las referencias a su Manual de Convivencia.
-2. Verificar que el repositorio no contenga PDF institucional, información personal ni credenciales.
-3. Comprobar el proyecto con un navegador real en PC y teléfono.
-4. Cuando se autorice la publicación, subir a un repositorio público `ljarias/inem-convive`.
-5. Configurar GitHub Pages desde `Settings > Pages > Build and deployment > Deploy from a branch`, seleccionando `main` y `/ (root)`.
-
-La ruta pública esperada, **solo después de la publicación**, sería `https://ljarias.github.io/inem-convive/`.
+- Repositorio público: [ljarias/inem-convive](https://github.com/ljarias/inem-convive), rama `main`.
+- Demo publicado según verificación del script local del titular el 10/11/2026: [INEM Convive](https://ljarias.github.io/inem-convive/).
+- Commit de entrega verificado en GitHub: [`3976c70`](https://github.com/ljarias/inem-convive/commit/3976c70c2c3c55263f399a008841cb834e313e6a).
+- Fuente de GitHub Pages: `main` y `/ (root)`. No se utilizó Vercel.
+- La verificación del script fue aportada por el titular; no se declara verificación HTTP independiente desde este entorno.
 
 ## Seguridad y uso responsable
 
@@ -33,9 +31,11 @@ No es un canal de denuncias, no procesa expedientes ni datos de estudiantes, no 
 
 Repositorio público no equivale automáticamente a software de código abierto. **No se ha asignado licencia al código de esta aplicación** hasta decisión del titular. El escudo y el contenido institucional poseen condiciones de uso independientes. No se aplica automáticamente la licencia Apache 2.0 del constructor original a todos los activos de este proyecto.
 
-## Estado
+## Estado y cierre documental
 
-Versión 0.2.2, **candidata a publicación**. Requiere revisión institucional y verificación final antes de despliegue.
+**Versión final del alcance:** 0.2.2. **Estado:** proyecto académico finalizado y cerrado por decisión expresa del titular el **10/11/2026**. La publicación y el commit están registrados arriba. No hay continuidad de desarrollo programada; cualquier ampliación requerirá una nueva solicitud.
+
+El cierre no certifica WCAG 2.2 AA, validación editorial institucional de los 30 casos, autorización general de reutilización del escudo ni prueba de importación del árbol en el constructor. Estas son limitaciones documentadas, no compromisos abiertos. La aplicación es un piloto educativo y no un sistema disciplinario.
 
 
 ## Despliegue por GitHub Pages
