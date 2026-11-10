@@ -1,0 +1,500 @@
+{
+  "version": 2,
+  "name": "INEM Convive - Arbol de orientacion (v0.2.1)",
+  "description": "Arbol educativo offline basado en el Manual de Convivencia del INEM Simón Bolívar. Incluye 30 situaciones: 10 para estudiantes, 10 para familias y 10 para docentes.",
+  "start": "q_inicio",
+  "routes": [
+    {
+      "id": "r_est_foto",
+      "title": "Una foto compartida sin permiso",
+      "message": "Orientación pedagógica: El manual protege la intimidad y prohíbe divulgar imágenes o datos personales sin autorización cuando ello afecte la honra o el buen nombre. Fuente: Manual de Convivencia INEM, apartado 6.1.1.3, página PDF 68. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    },
+    {
+      "id": "r_est_dialogo",
+      "title": "Una discusión en el recreo",
+      "message": "Orientación pedagógica: Las diferencias y conflictos deben gestionarse prioritariamente mediante diálogo, mediación y prácticas restaurativas cuando sea viable y seguro. Fuente: Manual de Convivencia INEM, apartado 6.1.3.3, página PDF 69. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    },
+    {
+      "id": "r_est_celular",
+      "title": "El celular durante clase",
+      "message": "Orientación pedagógica: Los dispositivos personales solo podrán utilizarse con fines pedagógicos o cuando exista autorización expresa del docente o directivo responsable. Fuente: Manual de Convivencia INEM, apartado 6.1.5.2, página PDF 69. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    },
+    {
+      "id": "r_est_integridad",
+      "title": "Una actividad hecha con IA",
+      "message": "Orientación pedagógica: Toda producción académica debe corresponder al trabajo propio y respetar las normas de citación, propiedad intelectual y uso ético de la información. Fuente: Manual de Convivencia INEM, apartado 6.1.6.1 y 6.1.6.2, página PDF 70. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    },
+    {
+      "id": "r_est_escucha",
+      "title": "Quiero explicar mi versión",
+      "message": "Orientación pedagógica: Toda persona involucrada tendrá la oportunidad de expresar libremente su versión de los hechos en un ambiente seguro y respetuoso. Fuente: Manual de Convivencia INEM, apartado 7.1.1.3, página PDF 78. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    },
+    {
+      "id": "r_est_diversidad",
+      "title": "Comentarios sobre una diferencia",
+      "message": "Orientación pedagógica: Todos deben reconocer y respetar las diferencias individuales; se prohíben los actos discriminatorios, de exclusión o estigmatización. Fuente: Manual de Convivencia INEM, apartado 6.1.2.1 y 6.1.2.2, página PDF 68. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    },
+    {
+      "id": "r_est_ambiente",
+      "title": "Residuos en el salón",
+      "message": "Orientación pedagógica: Todos los integrantes deben contribuir al cuidado de los espacios físicos y ambientales y disponer adecuadamente los residuos. Fuente: Manual de Convivencia INEM, apartado 6.1.8.1 y 6.1.8.2, página PDF 71. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    },
+    {
+      "id": "r_est_bienes",
+      "title": "Daño a un recurso institucional",
+      "message": "Orientación pedagógica: La comunidad debe conservar los bienes institucionales y quien ocasione daños debe participar en acciones restaurativas o reparadoras. Fuente: Manual de Convivencia INEM, apartado 6.1.7.1 y 6.1.7.3, página PDF 70. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    },
+    {
+      "id": "r_est_puntualidad",
+      "title": "Llegadas tarde repetidas",
+      "message": "Orientación pedagógica: Las llegadas tardías o ausencias injustificadas se abordan inicialmente con estrategias pedagógicas, restaurativas y registros institucionales. Fuente: Manual de Convivencia INEM, apartado 6.2.1.1, página PDF 72. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    },
+    {
+      "id": "r_est_participacion",
+      "title": "Quiero proponer una idea",
+      "message": "Orientación pedagógica: Los estudiantes tienen derecho a expresar opiniones y propuestas mediante los mecanismos establecidos, respetando los derechos de los demás. Fuente: Manual de Convivencia INEM, apartado 6.1.3.1 y 6.1.3.2, página PDF 69. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    },
+    {
+      "id": "r_fam_dialogo",
+      "title": "Necesito hablar con el colegio",
+      "message": "Orientación pedagógica: Las familias son corresponsables del proceso educativo y deben mantener comunicación respetuosa y constructiva con la institución. Fuente: Manual de Convivencia INEM, apartado 1.5.3 y 4.2.3, página PDF 12. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    },
+    {
+      "id": "r_fam_debido",
+      "title": "Acompañar a mi hijo en un proceso",
+      "message": "Orientación pedagógica: Los acudientes pueden acompañar y representar a sus hijos, y el procedimiento debe respetar las garantías del debido proceso. Fuente: Manual de Convivencia INEM, apartado 4.1.3 y 7.1.1.3, página PDF 30. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    },
+    {
+      "id": "r_fam_pqrs",
+      "title": "Quiero presentar una solicitud",
+      "message": "Orientación pedagógica: Las familias tienen derecho a participar y a presentar solicitudes por los canales institucionales previstos. Fuente: Manual de Convivencia INEM, apartado 9.1.4 y 9.1.6, página PDF 109. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    },
+    {
+      "id": "r_fam_excusa",
+      "title": "Justificar una inasistencia",
+      "message": "Orientación pedagógica: El manual espera que las familias acompañen el proceso educativo y atiendan oportunamente los requerimientos institucionales. Fuente: Manual de Convivencia INEM, apartado 6.2.1.1 y 4.2.3, página PDF 72. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    },
+    {
+      "id": "r_fam_inclusion",
+      "title": "Apoyos para participar mejor",
+      "message": "Orientación pedagógica: Estudiantes, docentes y familias deben colaborar con las medidas institucionales orientadas a eliminar barreras para el aprendizaje y la participación. Fuente: Manual de Convivencia INEM, apartado 6.1.2.3 y 1.5.6, página PDF 68. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    },
+    {
+      "id": "r_fam_privacidad",
+      "title": "Difundir un caso del curso",
+      "message": "Orientación pedagógica: No deben divulgarse datos, imágenes o información de otras personas cuando ello afecte su intimidad, honra o buen nombre. Fuente: Manual de Convivencia INEM, apartado 6.1.1.3, página PDF 68. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    },
+    {
+      "id": "r_fam_participacion",
+      "title": "Quiero involucrarme más en la institución",
+      "message": "Orientación pedagógica: El manual prevé mecanismos de participación para las familias, como la asamblea general y el consejo de padres. Fuente: Manual de Convivencia INEM, apartado 5.3.1, página PDF 56. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    },
+    {
+      "id": "r_fam_apoyo",
+      "title": "Mi hijo reincide en dificultades de convivencia",
+      "message": "Orientación pedagógica: Ante reincidencias, el manual prioriza el análisis integral del caso y la corresponsabilidad entre familia e institución. Fuente: Manual de Convivencia INEM, apartado 7.1.3.1 y 7.1.3.2, página PDF 82. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    },
+    {
+      "id": "r_fam_bienestar",
+      "title": "Señales de malestar emocional",
+      "message": "Orientación pedagógica: Las actuaciones institucionales deben proteger el bienestar emocional y la permanencia escolar de los estudiantes. Fuente: Manual de Convivencia INEM, apartado 7.1.1.2 y 1.5.6, página PDF 78. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    },
+    {
+      "id": "r_fam_recursos",
+      "title": "Uso responsable de recursos",
+      "message": "Orientación pedagógica: La comunidad educativa debe hacer uso racional del agua, la energía, el papel y demás recursos institucionales. Fuente: Manual de Convivencia INEM, apartado 6.1.8.3, página PDF 71. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    },
+    {
+      "id": "r_doc_restaura",
+      "title": "Conflicto menor en el aula",
+      "message": "Orientación pedagógica: Las situaciones de convivencia deben atenderse con enfoque pedagógico y restaurativo, respetando las garantías y el contexto. Fuente: Manual de Convivencia INEM, apartado 7.1.1.3, 7.1.1.4 y 7.1.1.5, página PDF 78. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    },
+    {
+      "id": "r_doc_confidencial",
+      "title": "Información delicada de un estudiante",
+      "message": "Orientación pedagógica: El tratamiento de información convivencial exige reserva y protección de las personas involucradas. Fuente: Manual de Convivencia INEM, apartado 7.1.1.8, página PDF 79. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    },
+    {
+      "id": "r_doc_inclusion",
+      "title": "Ajustes y apoyos en una intervención",
+      "message": "Orientación pedagógica: La intervención educativa debe reconocer diferencias, barreras y ajustes razonables cuando sean pertinentes. Fuente: Manual de Convivencia INEM, apartado 7.1.1.6 y 6.1.2.3, página PDF 78. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    },
+    {
+      "id": "r_doc_registro",
+      "title": "Cómo dejar constancia de un hecho",
+      "message": "Orientación pedagógica: Los hechos deben registrarse objetivamente en el instrumento institucional correspondiente, sin emitir juicios de valor. Fuente: Manual de Convivencia INEM, apartado 7.1.2 Registro Inicial, página PDF 79. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    },
+    {
+      "id": "r_doc_mediacion",
+      "title": "Primeras acciones ante una Situación Tipo I",
+      "message": "Orientación pedagógica: Cuando la situación lo permita, la intervención deberá realizarse mediante diálogo y mediación pedagógica. Fuente: Manual de Convivencia INEM, apartado 7.1.2 Primer paso, página PDF 79. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    },
+    {
+      "id": "r_doc_familia",
+      "title": "¿Cuándo vincular a la familia?",
+      "message": "Orientación pedagógica: La familia debe ser informada y vinculada cuando la situación lo requiera, especialmente en casos de reincidencia o afectación significativa. Fuente: Manual de Convivencia INEM, apartado 7.1.2 Cuarto Paso, página PDF 81. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    },
+    {
+      "id": "r_doc_pai",
+      "title": "Reincidencia en Situaciones Tipo I",
+      "message": "Orientación pedagógica: La reiteración de conductas Tipo I no genera automáticamente sanciones; antes debe analizarse el caso y fortalecerse el apoyo integral. Fuente: Manual de Convivencia INEM, apartado 7.1.3 y 7.1.3.2, página PDF 82. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    },
+    {
+      "id": "r_doc_digital",
+      "title": "Mal uso de medios tecnológicos",
+      "message": "Orientación pedagógica: Cuando la conducta investigada implique uso inadecuado de medios tecnológicos, el manual prevé medidas específicas con debido proceso. Fuente: Manual de Convivencia INEM, apartado 7.2.3.4, página PDF 86. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    },
+    {
+      "id": "r_doc_debido",
+      "title": "Evitar decisiones automáticas",
+      "message": "Orientación pedagógica: Antes de imponer medidas disciplinarias, la autoridad competente debe valorar integralmente el caso; no proceden automatismos. Fuente: Manual de Convivencia INEM, apartado 7.2.2, página PDF 84. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    },
+    {
+      "id": "r_doc_orienta",
+      "title": "Cuándo pedir apoyo institucional",
+      "message": "Orientación pedagógica: Cuando sea pertinente, el director de grupo o docente puede solicitar apoyo de Coordinación, Orientación Escolar o del Comité de Inclusión. Fuente: Manual de Convivencia INEM, apartado 7.1.2 Segundo Paso, página PDF 80. Consulta el documento completo y los canales institucionales para un caso real. Esta herramienta no recibe reportes ni determina sanciones.",
+      "phone": ""
+    }
+  ],
+  "nodes": [
+    {
+      "id": "q_inicio",
+      "type": "question",
+      "text": "Bienvenido a INEM Convive. Selecciona tu perfil. Esta guía es educativa y no recibe datos personales ni casos reales.",
+      "options": [
+        {
+          "label": "🎒 Soy estudiante",
+          "to": "q_estudiante"
+        },
+        {
+          "label": "🏡 Soy madre, padre o acudiente",
+          "to": "q_familia"
+        },
+        {
+          "label": "📚 Soy docente",
+          "to": "q_docente"
+        }
+      ]
+    },
+    {
+      "id": "q_estudiante",
+      "type": "question",
+      "text": "Ruta de estudiantes: elige una situación para recibir orientación pedagógica basada en el manual.",
+      "options": [
+        {
+          "label": "🔒 Una foto compartida sin permiso",
+          "to": "n_est_foto"
+        },
+        {
+          "label": "🗣️ Una discusión en el recreo",
+          "to": "n_est_dialogo"
+        },
+        {
+          "label": "📱 El celular durante clase",
+          "to": "n_est_celular"
+        },
+        {
+          "label": "🧠 Una actividad hecha con IA",
+          "to": "n_est_integridad"
+        },
+        {
+          "label": "⚖️ Quiero explicar mi versión",
+          "to": "n_est_escucha"
+        },
+        {
+          "label": "🤝 Comentarios sobre una diferencia",
+          "to": "n_est_diversidad"
+        },
+        {
+          "label": "🌱 Residuos en el salón",
+          "to": "n_est_ambiente"
+        },
+        {
+          "label": "🧰 Daño a un recurso institucional",
+          "to": "n_est_bienes"
+        },
+        {
+          "label": "⏰ Llegadas tarde repetidas",
+          "to": "n_est_puntualidad"
+        },
+        {
+          "label": "🗳️ Quiero proponer una idea",
+          "to": "n_est_participacion"
+        }
+      ]
+    },
+    {
+      "id": "q_familia",
+      "type": "question",
+      "text": "Ruta de familias: elige una situación para recibir orientación y recomendaciones de participación responsable.",
+      "options": [
+        {
+          "label": "📞 Necesito hablar con el colegio",
+          "to": "n_fam_dialogo"
+        },
+        {
+          "label": "⚖️ Acompañar a mi hijo en un proceso",
+          "to": "n_fam_debido"
+        },
+        {
+          "label": "📝 Quiero presentar una solicitud",
+          "to": "n_fam_pqrs"
+        },
+        {
+          "label": "🗓️ Justificar una inasistencia",
+          "to": "n_fam_excusa"
+        },
+        {
+          "label": "♿ Apoyos para participar mejor",
+          "to": "n_fam_inclusion"
+        },
+        {
+          "label": "🔐 Difundir un caso del curso",
+          "to": "n_fam_privacidad"
+        },
+        {
+          "label": "👥 Quiero involucrarme más en la institución",
+          "to": "n_fam_participacion"
+        },
+        {
+          "label": "🫶 Mi hijo reincide en dificultades de convivencia",
+          "to": "n_fam_apoyo"
+        },
+        {
+          "label": "🏡 Señales de malestar emocional",
+          "to": "n_fam_bienestar"
+        },
+        {
+          "label": "💡 Uso responsable de recursos",
+          "to": "n_fam_recursos"
+        }
+      ]
+    },
+    {
+      "id": "q_docente",
+      "type": "question",
+      "text": "Ruta de docentes: elige una situación para revisar orientaciones formativas y restaurativas.",
+      "options": [
+        {
+          "label": "🧩 Conflicto menor en el aula",
+          "to": "n_doc_restaura"
+        },
+        {
+          "label": "🔒 Información delicada de un estudiante",
+          "to": "n_doc_confidencial"
+        },
+        {
+          "label": "♿ Ajustes y apoyos en una intervención",
+          "to": "n_doc_inclusion"
+        },
+        {
+          "label": "🗒️ Cómo dejar constancia de un hecho",
+          "to": "n_doc_registro"
+        },
+        {
+          "label": "🤝 Primeras acciones ante una Situación Tipo I",
+          "to": "n_doc_mediacion"
+        },
+        {
+          "label": "👨‍👩‍👧 ¿Cuándo vincular a la familia?",
+          "to": "n_doc_familia"
+        },
+        {
+          "label": "📘 Reincidencia en Situaciones Tipo I",
+          "to": "n_doc_pai"
+        },
+        {
+          "label": "💻 Mal uso de medios tecnológicos",
+          "to": "n_doc_digital"
+        },
+        {
+          "label": "⚖️ Evitar decisiones automáticas",
+          "to": "n_doc_debido"
+        },
+        {
+          "label": "🧭 Cuándo pedir apoyo institucional",
+          "to": "n_doc_orienta"
+        }
+      ]
+    },
+    {
+      "id": "n_est_foto",
+      "type": "end",
+      "routeId": "r_est_foto"
+    },
+    {
+      "id": "n_est_dialogo",
+      "type": "end",
+      "routeId": "r_est_dialogo"
+    },
+    {
+      "id": "n_est_celular",
+      "type": "end",
+      "routeId": "r_est_celular"
+    },
+    {
+      "id": "n_est_integridad",
+      "type": "end",
+      "routeId": "r_est_integridad"
+    },
+    {
+      "id": "n_est_escucha",
+      "type": "end",
+      "routeId": "r_est_escucha"
+    },
+    {
+      "id": "n_est_diversidad",
+      "type": "end",
+      "routeId": "r_est_diversidad"
+    },
+    {
+      "id": "n_est_ambiente",
+      "type": "end",
+      "routeId": "r_est_ambiente"
+    },
+    {
+      "id": "n_est_bienes",
+      "type": "end",
+      "routeId": "r_est_bienes"
+    },
+    {
+      "id": "n_est_puntualidad",
+      "type": "end",
+      "routeId": "r_est_puntualidad"
+    },
+    {
+      "id": "n_est_participacion",
+      "type": "end",
+      "routeId": "r_est_participacion"
+    },
+    {
+      "id": "n_fam_dialogo",
+      "type": "end",
+      "routeId": "r_fam_dialogo"
+    },
+    {
+      "id": "n_fam_debido",
+      "type": "end",
+      "routeId": "r_fam_debido"
+    },
+    {
+      "id": "n_fam_pqrs",
+      "type": "end",
+      "routeId": "r_fam_pqrs"
+    },
+    {
+      "id": "n_fam_excusa",
+      "type": "end",
+      "routeId": "r_fam_excusa"
+    },
+    {
+      "id": "n_fam_inclusion",
+      "type": "end",
+      "routeId": "r_fam_inclusion"
+    },
+    {
+      "id": "n_fam_privacidad",
+      "type": "end",
+      "routeId": "r_fam_privacidad"
+    },
+    {
+      "id": "n_fam_participacion",
+      "type": "end",
+      "routeId": "r_fam_participacion"
+    },
+    {
+      "id": "n_fam_apoyo",
+      "type": "end",
+      "routeId": "r_fam_apoyo"
+    },
+    {
+      "id": "n_fam_bienestar",
+      "type": "end",
+      "routeId": "r_fam_bienestar"
+    },
+    {
+      "id": "n_fam_recursos",
+      "type": "end",
+      "routeId": "r_fam_recursos"
+    },
+    {
+      "id": "n_doc_restaura",
+      "type": "end",
+      "routeId": "r_doc_restaura"
+    },
+    {
+      "id": "n_doc_confidencial",
+      "type": "end",
+      "routeId": "r_doc_confidencial"
+    },
+    {
+      "id": "n_doc_inclusion",
+      "type": "end",
+      "routeId": "r_doc_inclusion"
+    },
+    {
+      "id": "n_doc_registro",
+      "type": "end",
+      "routeId": "r_doc_registro"
+    },
+    {
+      "id": "n_doc_mediacion",
+      "type": "end",
+      "routeId": "r_doc_mediacion"
+    },
+    {
+      "id": "n_doc_familia",
+      "type": "end",
+      "routeId": "r_doc_familia"
+    },
+    {
+      "id": "n_doc_pai",
+      "type": "end",
+      "routeId": "r_doc_pai"
+    },
+    {
+      "id": "n_doc_digital",
+      "type": "end",
+      "routeId": "r_doc_digital"
+    },
+    {
+      "id": "n_doc_debido",
+      "type": "end",
+      "routeId": "r_doc_debido"
+    },
+    {
+      "id": "n_doc_orienta",
+      "type": "end",
+      "routeId": "r_doc_orienta"
+    }
+  ]
+}

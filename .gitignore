@@ -1,0 +1,17 @@
+# Fuentes institucionales y respaldos nunca al repositorio público
+*.pdf
+*.PDF
+*.zip
+*.bak
+*.old
+*_backup_*/
+**/*_backup_*/
+*.log
+*.tmp
+*.swp
+.env
+.env.*
+!.env.example
+**/node_modules/
+.DS_Store
+Thumbs.db
